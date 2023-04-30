@@ -25,6 +25,7 @@ h1{
 a{
     color: black;
     display: block;
+    justify-content:center;
     margin-left: auto;
     margin-right: auto;
 }
