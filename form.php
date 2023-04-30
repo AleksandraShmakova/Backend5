@@ -26,13 +26,11 @@ a{
     color: black;
 }
 
-p{
+	
+.button {
   padding: 5%;
   border: 1px solid #26527C;
   border-radius: 3px;
-}
-	
-.button {
   display: flex;
   align-items: center;
   justify-content: center;
