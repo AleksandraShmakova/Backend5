@@ -30,7 +30,7 @@ a{
     margin:2%;
     padding: 5%;
     border: 1px solid;
-    border-color: #fd0130;
+    border-color: #26527C;
     border-radius: 3px;
 }
 	
