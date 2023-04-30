@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     font-family: "Montserrat", sans-serif;
     max-width: 960px;
     text-align: center;
-    margin: auto;
+    margin: 30% auto;
     padding: 40px;
     width: 250px;
     background-color: #95bade;
