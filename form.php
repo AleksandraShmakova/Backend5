@@ -110,16 +110,16 @@ a{
             <div class="pas <?php if ($errors['radio-2']) {print 'error';} ?>">
                 Количество конечностей:<br>
                     <input type="radio" name="radio-2" value="1" <?php if($values['radio-2']=="1") {print 'checked';} ?>/>
-                    4
+                    1
 
                     <input type="radio" name="radio-2" value="2" <?php if($values['radio-2']=="2") {print 'checked';} ?>/>
-                    3
-
-                    <input type="radio" name="radio-2" value="3" <?php if($values['radio-2']=="3") {print 'checked';} ?>/>
                     2
 
+                    <input type="radio" name="radio-2" value="3" <?php if($values['radio-2']=="3") {print 'checked';} ?>/>
+                    3
+
                     <input type="radio" name="radio-2" value="4" <?php if($values['radio-2']=="4") {print 'checked';} ?>/>
-                    1
+                    4
             </div>
 
 
