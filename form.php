@@ -27,7 +27,8 @@ a{
 }
 
 p {
-   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 	
 .button {
