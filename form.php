@@ -144,8 +144,9 @@ a{
                 </div>');}
                 ?>
 
-                
-                <input type="submit" value="Отправить" />
+                <p class = "button">
+                    <input type="submit" value="Отправить" />
+	        </p>
                 </form>
             <?php
             if(empty($_SESSION['login'])){
