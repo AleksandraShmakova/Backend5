@@ -36,8 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     margin: 0 auto;
     padding: 40px;
     width: 250px;
-    background-color: #00ffd2;
-    border: 2px solid #fd0130;
+    background-color: #95bade;
+    border: 2px solid #26527C;
   }
 </style>
 <div class="log-in">
