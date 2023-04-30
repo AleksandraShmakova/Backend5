@@ -25,6 +25,12 @@ h1{
 a{
     color: black;
 }
+	
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .pas{
     margin:2%;
