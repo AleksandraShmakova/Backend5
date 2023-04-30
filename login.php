@@ -24,7 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 ?>
 <style>
   body{
-  background-color: black;
+     background-image: url("sea.jpg");
+     background-size: no-repeat;
+     display: block;
+     justify-content:center;
   }
   .log-in{
     font-family: "Montserrat", sans-serif;
