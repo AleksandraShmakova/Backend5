@@ -171,7 +171,9 @@ a{
                 echo '
                 <div class="logout">
                 <form action="index.php" method="post">
-                    <input name="logout" type="submit" value="Выйти">
+		   <p class = "button">
+                      <input name="logout" type="submit" value="Выйти">
+                   </p>
                 </form>
                 </div>';
             } ?>
