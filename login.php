@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <div class="log-in">
 <form action="login.php" method="post">
   <input name="login" /> Логин<br><br>
-  <input name="password" type="password"/> Пароль<br><br>
+  <input name="password" type="password"/> Пароль<br>
   <p class = "button">
      <input type="submit" value="Войти" />
   </p>
