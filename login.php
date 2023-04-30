@@ -29,10 +29,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
      display: block;
      justify-content:center;
   }
+	
+  .button {
+     text-align: center;
+  }
+	
   .log-in{
     font-family: "Montserrat", sans-serif;
     max-width: 960px;
-    text-align: center;
     margin: 20% auto;
     padding: 40px;
     width: 250px;
@@ -44,7 +48,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <form action="login.php" method="post">
   <input name="login" /> Логин<br><br>
   <input name="password" type="password"/> Пароль<br><br>
-  <input type="submit" value="Войти" />
+  <p class = "button">
+     <input type="submit" value="Войти" />
+  </p>
 </form>
 </div>
 <?php
@@ -56,8 +62,8 @@ else {
   $pswrd=$_POST['password'];
   $uid=0;
   $error=TRUE;
-  $user = 'u52927';
-  $pass = '5758562';
+  $user = 'u54915';
+  $pass = '8078372';
   $db1 = new PDO('mysql:host=localhost;dbname=u52927', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   if(!empty($login) and !empty($pswrd)){
     try{
