@@ -1,16 +1,20 @@
 <style>
 body{
-    background-color: #fcee0a;
-    display: flex;
+    background-image: url("sea.jpg");
+    background-size: no-repeat;
+    display: block;
     justify-content:center;
     margin-top:5%;
     margin-bottom:5%;
 }
+
 .main{
     padding: 40px;
     width: 250px;
-    background-color: #00ffd2;
-    border: 2px solid #fd0130;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #95bade;
+    border: 2px solid #26527C;
 }
 
 h1{
@@ -29,22 +33,27 @@ a{
     border-color: #fd0130;
     border-radius: 3px;
 }
+	
 .error {
     border-color: #fd0130;
   }
 </style>
-<?php
-if (!empty($messages)) {
-  print('<div id="messages">');
-  // Выводим все сообщения.
-  foreach ($messages as $message) {
-    print($message);
-  }
-  print('</div>');
-}
-?>
+
+
 <body>
     <div class="main">
+	    
+    <?php
+       if (!empty($messages)) {
+         print('<div id="messages">');
+         // Выводим все сообщения.
+         foreach ($messages as $message) {
+            print($message);
+         }
+         print('</div>');
+      }
+    ?>
+	    
     <h1>Форма</h1>
     
     <form action="index.php" method="POST">
