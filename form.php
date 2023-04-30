@@ -145,13 +145,13 @@ a{
                 ?>
 
                 
-                <input type="submit" value="Send" />
+                <input type="submit" value="Отправить" />
                 </form>
             <?php
             if(empty($_SESSION['login'])){
             echo'
             <div class="login">
-                <p> <a href="login.php">Если имеется аккаунт, то нажмите здесь</a></p>
+                <p> <a href="login.php">У меня уже есть аккаунт</a></p>
             </div>';
             }
             else{
