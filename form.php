@@ -26,6 +26,9 @@ a{
     color: black;
 }
 
+p {
+   justify-content:center;
+}
 	
 .button {
   padding: 5%;
