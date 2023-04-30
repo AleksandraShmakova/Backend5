@@ -24,6 +24,7 @@ h1{
 
 a{
     color: black;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
