@@ -24,9 +24,8 @@ h1{
 
 a{
     color: black;
-    display: block;
+    display: flex;
     justify-content:center;
-   
 }
 
 	
