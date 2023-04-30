@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   if (!$error && !empty($_COOKIE[session_name()]) && !empty($_SESSION['login'])) {
     $user = 'u54915';
     $pass = '8078372';
-    $db = new PDO('mysql:host=localhost;dbname=u52927', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+    $db = new PDO('mysql:host=localhost;dbname=u54915', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
     try{
       $get=$db->prepare("SELECT * FROM form WHERE id=?");
       $get->bindParam(1,$_SESSION['uid']);
