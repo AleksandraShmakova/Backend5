@@ -24,12 +24,10 @@ h1{
 
 a{
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-   margin-left: auto;
-   margin-right: auto;
-}
 	
 .button {
   padding: 5%;
