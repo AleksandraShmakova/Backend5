@@ -25,6 +25,12 @@ h1{
 a{
     color: black;
 }
+
+p{
+  padding: 5%;
+  border: 1px solid #26527C;
+  border-radius: 3px;
+}
 	
 .button {
   display: flex;
@@ -123,8 +129,8 @@ a{
                     <select name="super[]" multiple="multiple">
                     <?php if ($errors['super']) {print 'class="error"';} ?> >
                     <option value="inv" <?php if($values['inv']==1){print 'selected';} ?>>Бессмертие</option>
-                    <option value="walk" <?php if($values['walk']==1){print 'selected';} ?>>прохождение сквозь стены</option>
-                    <option value="fly" <?php if($values['fly']==1){print 'selected';} ?>>левитация</option>
+                    <option value="walk" <?php if($values['walk']==1){print 'selected';} ?>>Прохождение сквозь стены</option>
+                    <option value="fly" <?php if($values['fly']==1){print 'selected';} ?>>Левитация</option>
                     </select>
                 
             </div>
@@ -146,13 +152,13 @@ a{
                 if(empty($_SESSION['login'])){
                 print('
                 <div  '.$cl_e.' >
-                <input name="check" type="checkbox" '.$ch.'> Я согласен дать данные <br>
+                <input name="check" type="checkbox" '.$ch.'> Я согласен на обработку данных <br>
                 </div>');}
                 ?>
 
                 <p class = "button">
-                    <input type="submit" value="Отправить" />
-	        </p>
+                   <input type="submit" value="Отправить" />
+                </p>
                 </form>
             <?php
             if(empty($_SESSION['login'])){
